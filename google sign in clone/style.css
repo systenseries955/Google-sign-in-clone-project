@@ -1,0 +1,133 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color: white;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.inner-container{
+    height: 31.25rem;
+    width: 28rem;
+    margin: 3.125rem;
+    margin-bottom: 0;
+    background-color: white;
+    border: 0.1em solid #d9dadb;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+#inner-logo{
+    margin: 20px;
+    height: auto;
+    margin-bottom: 0;
+    width: 75px;
+   
+}
+.inner-head span{
+    display: block;
+
+}
+
+#sign_in{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#para{
+    text-align: center;
+    font-size: 15px;
+   
+}
+.email-add input[type="text"]{
+    
+    margin-top: 25px;
+    width:100%;
+    padding: 15px;
+    border: 1px solid #5e5e5e;
+    border-radius:5px;
+    border-color: #f9f9f9;
+    font-size: 1em;
+
+    
+}
+.email-add button{
+    padding: 12px;
+    border:none;
+    background-color: transparent;
+    color:#1a73e8;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+
+
+}
+.leranmore{
+    margin: 50px;
+    text-align: start;
+    font-size: 0.8em;
+    color:#5f6368;
+}
+.leranmore a{
+    text-decoration: none;
+    color:#1a73e8;
+    cursor: pointer;
+    font-size: 0.9;
+    font-weight: 500;
+}
+.button{
+    height:31.25rem;
+    width:28rem;
+    display: flex;
+    justify-content: space-around;
+}
+#create button{
+    text-align: center;
+    padding: 12px;
+    border:none;
+    background-color: transparent;
+    color:#1a73e8;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+#next button{
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    font-size: 1em;
+}
+.footor{
+    display: flex;
+    margin: 20px;
+    height: auto;
+    width: 28rem;
+    justify-content: space-between;
+}
+.footor a{
+    text-decoration: none;
+    padding: 0.9em;
+    font-size: small;
+    color:#5f6368;
+
+}
+.footor div select{
+padding: 5px 20px;
+border-radius: 3px;
+border: none;
+color:#5f6368;
+
+} 
